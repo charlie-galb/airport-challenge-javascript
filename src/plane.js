@@ -12,6 +12,6 @@ class Plane{
   };
 
   takeoff(){
-    this._location.clearForTakeoff(this)
-  }
+    this._location.clearForTakeoff();
+  };
 }
